@@ -1,0 +1,109 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://2022-01-newyear.s3.ap-northeast-2.amazonaws.com/Cafe24Ssurround.woff') format('woff');
+    }
+
+    * {
+        font-family: 'Cafe24Ssurround';
+    }
+
+    .hidden{
+    display: none;
+}
+
+body{
+    background-color: beige;
+    background-position: center;
+    background-size: cover;
+    width:100vw;
+    height:100vh;
+
+    max-width: 450px;
+
+
+    margin:auto;
+}
+
+
+#title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color:black;
+            padding-top: 5vh;
+            
+}
+#marking {
+    margin:0;
+   color:coral;
+}
+
+
+.markchild{
+    width:150px;
+    height:200px;
+}
+
+
+#title>#musicsong{
+    size:auto;
+    
+}
+
+#title>#marking{
+    font-size: 22px;
+   border-radius: 16px;
+         bottom: 20px;
+         top: 50px;
+}
+
+#mov{
+    color:firebrick;
+}
+#melon{
+    color:green;
+    margin-left: 50px;
+}
+
+#title>#btn{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+    color:coral;
+}
+
+#markcheer{
+    color:firebrick;
+    font-size: 22px;
+    bottom:16px;
+    left:calc(50% - 100px);
+}
+
+#promotion{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#markmusic{
+    font-size:30px;
+
+}
+
+.song{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left:10px;
+}

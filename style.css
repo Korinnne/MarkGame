@@ -1,0 +1,33 @@
+@font-face{
+     font-family: "Cafe24surroundAir";
+     src : url( 'https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24surroundAir.woff') format('woff');
+     font-weight: normal;
+     font-style: normal;
+}
+
+.allfont{
+    font-family: "NeoDunggeunmo";;
+}
+
+
+.hidden{
+    display:none;
+}
+
+h1{
+    color:paleturquoise;
+    font-family:"Cafe24surroundAir" ;
+    text-align: center;
+}
+body{
+    background-image: url("제노 굿노트 스티커.PNG");
+    background-size: 100px;
+    
+    
+    
+}
+
+.colorblue{
+     background:mediumpurple;
+
+}
